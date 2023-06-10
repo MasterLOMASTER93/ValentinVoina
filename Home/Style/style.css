@@ -11,7 +11,7 @@ body {
 }
 
 .base {
-
+  
   font-size: 15px;
   color: rgb(14, 14, 14);
   width: 400px;
@@ -26,8 +26,13 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   cursor: pointer;
 
+  transition: color 0.3 linear;
+
 }
 
 a {
   text-decoration: none;
+}
+.base1:hover {
+  color: red;
 }
