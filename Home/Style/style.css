@@ -36,3 +36,11 @@ a {
 .base1:hover {
   color: red;
 }
+.add{
+  top: 10px;
+  background-color: rgb(65, 203, 120);
+  padding: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+
+}
