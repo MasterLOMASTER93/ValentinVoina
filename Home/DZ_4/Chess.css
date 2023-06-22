@@ -1,0 +1,36 @@
+
+p {
+font-weight: 800;
+font-size: 20px;
+margin:  20px 0px;
+
+}
+a {
+
+}
+.date {
+  text-align: left;
+  color: rgb(48, 135, 48);
+  margin:  15px 0px;
+  font-family: serif;
+  font-weight: 500;
+  font-size: 15px;
+ 
+ 
+}
+.achievement {
+  text-align: left;
+  color: rgb(240, 6, 6);
+  margin:  15px 0px;
+  font-family: serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.text {
+  font-style: italic;
+  color: blue;
+  font-weight: normal;
+  font-size: 15px;
+
+}
