@@ -1,0 +1,14 @@
+ div ul li:first-child a {
+  color: red;
+}
+div ul span a:last-child{
+  color: brown;
+}
+div ul li:nth-child(2) {
+  color: green;
+
+}
+body div ul li em a:first-child {
+
+color: chocolate;
+}
