@@ -1,0 +1,33 @@
+.name {
+  font-weight: bolder;
+}
+
+.date {
+  color: green;
+}
+
+.achievement {
+  color: red;
+  font-weight: bolder;
+}
+.info{
+  background-image:url(../img6/extref.png) ;
+  background-repeat: no-repeat;
+  padding-right: 5px;
+  
+}
+
+[href] {
+  color: blue;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.text {
+  color: blue;
+  font-style: oblique;
+}
+span{
+  padding-left: 20px;
+}
