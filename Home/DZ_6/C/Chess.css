@@ -1,0 +1,39 @@
+* {
+  margin: 3;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a::before {
+  content: url(img6/extref.png);
+
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 3px;
+}
+
+.date {
+  color: green;
+  padding: 3px;
+}
+
+.achievement {
+  color: red;
+  font-weight: bolder;
+  padding: 3px;
+}
+
+[href] {
+  color: blue;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 15px;
+  
+}
+.text{
+  font-style: italic;
+  color: blue;
+}
