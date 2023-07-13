@@ -10,6 +10,7 @@
   background-color: rgb(122, 179, 228);
   color: rgb(59, 45, 222);
   padding: 10px;
+  overflow: hidden;
 }
 
 .menu {
@@ -17,7 +18,7 @@
   background-position: left;
   background-repeat: repeat-y;
   padding: 20px;
-  float: left;
+  overflow: hidden;
 }
 
 .content {
@@ -45,5 +46,7 @@
   background-color: rgb(122, 179, 228);
   color: rgb(59, 45, 222);
   padding: 10px;
+  overflow: hidden;
+  clear: both;
 
 }

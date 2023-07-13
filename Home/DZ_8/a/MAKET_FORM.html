@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <form action="https://fe.it-academy.by/TestForm.php" method="post">
+    <p>Для публикации вашей статьи заполните,пожалуйста следующую форму:</p>
+    <div class="menu">
+      <div class="title_menu">
+        <label for="title_menu">Название статьи:</label>
+      </div>
+      <div class="menu_right">
+        <input class="article" type="text" name="name" id="name">
+      </div>
+      <div>
+        <label class="left" for="heading">
+          Рубрика:
+        </label>
+        <div class="menu_right1">
+          <select name="left" id="left">
+            <option value="prog">программирование</option>
+            <option value="prog1">программирование1</option>
+            <option value="prog2">программирование2</option>
+          </select>
+
+        </div>
+      </div>
+      <div>
+        <label class="title_menu" for="Publication">Публикация:</label>
+        <div class="menu_right2">
+          <label>
+            <input type="radio" name="Publication" value="Publication_1">на сайте
+          </label>
+          <label>
+            <input type="radio" name="Publication" value="Publication_2">в журнале
+          </label>
+          <label>
+            <input type="radio" name="Publication" value="Publication_3">на сайте и в журнале
+          </label>
+
+        </div>
+      </div>
+      <div>
+        <label class="left" for="comments">Разрешить комментарии:</label>
+        <div class="menu_right3">
+          <input type="checkbox" name="comments">
+        </div>
+      </div>
+
+    </div>
+    <div class="text">
+      <label for="text">Текст статьи:</label>
+    </div>
+    <textarea name="textarea"></textarea>
+    <input type="submit" value="Опубликовать" class="button">
+
+
+
+
+
+  </form>
+
+</body>
+
+</html>
