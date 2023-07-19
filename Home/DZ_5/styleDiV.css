@@ -17,9 +17,11 @@
   background-image: url(Img/line.png);
   background-position: left;
   background-repeat: repeat-y;
-  padding: 20px;
-  overflow: hidden;
+  padding-left: 45px;
+
 }
+
+
 
 .content {
   padding: 20px 20px;
@@ -36,7 +38,8 @@
 .text {
   text-align: center;
   font-size: 25px;
-  padding: 20px;
+  float: left;
+
 
 }
 
@@ -48,5 +51,4 @@
   padding: 10px;
   overflow: hidden;
   clear: both;
-
 }
