@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgba(16, 97, 238, 0.503);
+  color: blue;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 25px;
+
+}
+
+.menu {
+  background-image: url(img7/line.png);
+  background-repeat: repeat-y;
+
+}
+
+.bolls {
+  background-image: url(img7/ball.gif);
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+.title {
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.images-float {
+  float: left;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer {
+  background-color: rgba(16, 97, 238, 0.503);
+  color: blue;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 25px;
+
+}
+
+.kinds_of_sports {
+  width: 200px;
+  float: left;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 755px) {
+  .images-float {
+    float: none;
+    
+  }
+  .clearfix::after {
+    display: none;
+  }
+
+  .menu{
+
+  }
+}

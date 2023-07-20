@@ -1,1 +1,10 @@
-@media and screen {}
+/*@media all and(max-width: 755px) {
+  .images-float{
+    
+  }
+  .menu{
+    height: 200px;
+    float: left;
+    background-color: rgb(34, 255, 0);
+  }
+}*/
