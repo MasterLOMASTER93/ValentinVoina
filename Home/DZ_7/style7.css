@@ -57,15 +57,47 @@
 }
 
 @media screen and (max-width: 755px) {
+  .header {}
+
+  .menu {
+    background-image: none;
+    background-repeat: no-repeat;
+
+    height: 330px;
+
+
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .kinds_of_sports {
+
+    background-color: rgb(228, 193, 127);
+
+    max-width: 100%;
+
+  }
+
+  h2 {
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+
+  }
+
   .images-float {
     float: none;
-    
-  }
-  .clearfix::after {
-    display: none;
-  }
-
-  .menu{
+    width: 100%;
+    padding: 0 0 10px 0;
 
   }
+
+  .footer {
+    display: inline-block;
+  }
+
+  .clearfix::after {}
+
+
 }
