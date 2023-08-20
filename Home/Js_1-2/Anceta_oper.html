@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let lastname = prompt('Ваша фамилия');
+    let name = prompt('Ваше имя');
+    let surname = prompt('Ваше отчество');
+    let age = Number(prompt('Ваш возраст'));
+    let gender = confirm('Вы мужчина?');
+
+    gender === true ? gender = 'Мужчина' : gender = 'женщина';
+
+    let retired
+
+    gender === 'Мужчина' ?
+       (age < 65) ?
+          retired = 'нет' :
+          retired = 'да'
+       :
+       (age < 60) ?
+          retired = 'нет' :
+          retired = 'да';
+
+    alert('ваше ФИО: ' + lastname + ' ' + name + ' ' + surname + '\n' +
+       'ваш возраст в годах: ' + age + '\n' +
+       'ваш возраст в днях: ' + age * 365 + '\n' +
+       'через 5 лет вам будет: ' + (age + 5) + '\n' +
+       'ваш пол: ' + gender + '\n' +
+       'вы на пенсии: ' + retired
+    );
+  </script>
+
+</body>
+</html>
