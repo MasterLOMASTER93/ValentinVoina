@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        #app{
+           
+            
+        }
+        #app > div{
+            
+        }
+        #app > div:hover{
+            
+        }
+    </style>
+
+
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="render()">render cars</button>
+
+    <div id="app"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+
+        var cars = [
+            {
+              brand:"x7",
+              yers:"2023",
+              isAuction: true,
+              imgUrl:"https://cdn.motor1.com/images/mgl/xqg7bw/s1/bmw-x7-m60i-xdrive-2022.jpg"
+              
+            },
+            {
+              brand:"mers",
+              yers:"2023",
+              isAuction: true,
+              imgUrl:"https://avtomarket.ru/stuff/articles/0/291475_lkdm6qqz77_14117609.jpg"
+              
+            },
+            {
+              brand:"audi",
+              yers:"2023",
+              isAuction: true,
+              imgUrl:"https://daily-motor.ru/wp-content/uploads/2022/09/Audi-RS8-a.jpg"
+              
+            },
+
+        ]
+
+        var app = document.getElementById("app");
+
+        function render(){
+            var carsHtml = "";
+
+            for(var i=0; i<cars.length; i++){
+                carsHtml+=`
+                <div class="card" style="width: 18rem;">
+                    <img src="${cars[i].imgUrl}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">${cars[i].brand}</h3>
+                        <h4 class="card-title">${cars[i].model}</h4>
+                        <h5 class="card-title">${cars[i].year}</h5>
+
+                        ${cars[i].isAuction ? `<h5 class='card-title'>isAuction</h5>`: ""}
+                    </div>
+                </div>
+                `
+            }
+
+
+            app.innerHTML = carsHtml;
+        }
+
+    </script>
+
+    
+</body>
+</html>
